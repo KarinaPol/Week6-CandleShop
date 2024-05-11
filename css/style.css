@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan+SC&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sedan SC", serif;
+    text-align: center;
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url('../img/Küünal2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #1d293080;
+    border: 2px solid #1d2930;;
+    color: #c4cdd1;
+    display: inline-block;
+    font-size: 3.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #a45e5b;
+    color: #c4cdd1;
+    height: 500px;
+    margin-top: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 5%, 100% 15%, 100% 85%, 0 75%);
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/Küünal.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin-top: -8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #1d293080;
+    border: 2px solid #1d2930;
+    color: #b9bfbb;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color: #737a80;
+    color: #2b2926;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/Küünal1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #fbde8d56;
+    border: 2px solid #fbdd8d;
+    color: #300804;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 200px;
+    background-color: #c94a11;
+    color: #040404;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #ded5c4;
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    transform: scale(1.5);
+}
